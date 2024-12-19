@@ -3,7 +3,6 @@ using _15_Calculator.Models;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace _15_Calculator.Controllers
 {
     public enum Operation { Add, Subtract, Multiply, Divide }
