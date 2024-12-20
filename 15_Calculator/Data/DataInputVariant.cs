@@ -20,6 +20,7 @@ namespace _15_Calculator.Data
 
         [Column(TypeName = "varchar(128)")]
         public string? Result { get; set; }
-
     }
 }
+
+
