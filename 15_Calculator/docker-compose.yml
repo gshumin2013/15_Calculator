@@ -15,8 +15,8 @@ services:
       - "0.0.0.0:5035:3306"
       
   web:
-    container_name: 15_web-app-calculator
+    container_name: 15_calculator
     hostname: app
     build: ./
     ports:
-      - "5015:5015"
+      - "5515:5515"
