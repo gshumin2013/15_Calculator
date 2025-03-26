@@ -19,4 +19,4 @@ services:
     hostname: app
     build: ./
     ports:
-      - "5515:5515"
+      - "0.0.0.0:5515:5515"
