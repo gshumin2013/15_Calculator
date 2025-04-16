@@ -1,8 +1,8 @@
-﻿using _15_Calculator.Models;
+﻿using _5_Calculator.Models;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
-namespace _15_Calculator.Controllers
+namespace Calculator.Controllers
 {
     public enum Operation { Add, Subtract, Multiply, Divide }
 
